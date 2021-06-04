@@ -3,34 +3,34 @@
 cp wal_orig.json wal.json
 
 col0=$(head -21 ~/.Xresources | grep color0 | sed "s/\*.color0: #//g")
-sed -i "s/color0/$col0/g" ~/.local/src/4chan-pywal/wal.json
+sed -i "s/color0/$col0/g" wal.json
 col1=$(head -23 ~/.Xresources | grep color1 | sed "s/\*.color1: #//g")
-sed -i "s/color1/$col1/g" ~/.local/src/4chan-pywal/wal.json
+sed -i "s/color1/$col1/g" wal.json
 col2=$(head -25 ~/.Xresources | grep color2 | sed "s/\*.color2: #//g")
-sed -i "s/color2/$col2/g" ~/.local/src/4chan-pywal/wal.json
+sed -i "s/color2/$col2/g" wal.json
 col3=$(head -27 ~/.Xresources | grep color3 | sed "s/\*.color3: #//g")
-sed -i "s/color3/$col3/g" ~/.local/src/4chan-pywal/wal.json
+sed -i "s/color3/$col3/g" wal.json
 col4=$(head -29 ~/.Xresources | grep color4 | sed "s/\*.color4: #//g")
-sed -i "s/color4/$col4/g" ~/.local/src/4chan-pywal/wal.json
+sed -i "s/color4/$col4/g" wal.json
 col5=$(head -31 ~/.Xresources | grep color5 | sed "s/\*.color5: #//g")
-sed -i "s/color5/$col5/g" ~/.local/src/4chan-pywal/wal.json
+sed -i "s/color5/$col5/g" wal.json
 col6=$(head -33 ~/.Xresources | grep color6 | sed "s/\*.color6: #//g")
-sed -i "s/color6/$col6/g" ~/.local/src/4chan-pywal/wal.json
+sed -i "s/color6/$col6/g" wal.json
 col7=$(head -35 ~/.Xresources | grep color7 | sed "s/\*.color7: #//g")
-sed -i "s/color7/$col7/g" ~/.local/src/4chan-pywal/wal.json
+sed -i "s/color7/$col7/g" wal.json
 col8=$(head -37 ~/.Xresources | grep color8 | sed "s/\*.color8: #//g")
-sed -i "s/color8/$col8/g" ~/.local/src/4chan-pywal/wal.json
+sed -i "s/color8/$col8/g" wal.json
 col9=$(head -39 ~/.Xresources | grep color9 | sed "s/\*.color9: #//g")
-sed -i "s/color9/$col9/g" ~/.local/src/4chan-pywal/wal.json
+sed -i "s/color9/$col9/g" wal.json
 col10=$(head -41 ~/.Xresources | grep color10 | sed "s/\*.color10: #//g")
-sed -i "s/color10/$col10/g" ~/.local/src/4chan-pywal/wal.json
+sed -i "s/color10/$col10/g" wal.json
 col11=$(head -43 ~/.Xresources | grep color11 | sed "s/\*.color11: #//g")
-sed -i "s/color11/$col11/g" ~/.local/src/4chan-pywal/wal.json
+sed -i "s/color11/$col11/g" wal.json
 col12=$(head -45 ~/.Xresources | grep color12 | sed "s/\*.color12: #//g")
-sed -i "s/color12/$col12/g" ~/.local/src/4chan-pywal/wal.json
+sed -i "s/color12/$col12/g" wal.json
 col13=$(head -47 ~/.Xresources | grep color13 | sed "s/\*.color13: #//g")
-sed -i "s/color13/$col13/g" ~/.local/src/4chan-pywal/wal.json
+sed -i "s/color13/$col13/g" wal.json
 col14=$(head -49 ~/.Xresources | grep color14 | sed "s/\*.color14: #//g")
-sed -i "s/color14/$col14/g" ~/.local/src/4chan-pywal/wal.json
+sed -i "s/color14/$col14/g" wal.json
 col15=$(head -51 ~/.Xresources | grep color15 | sed "s/\*.color15: #//g")
-sed -i "s/color15/$col15/g" ~/.local/src/4chan-pywal/wal.json
+sed -i "s/color15/$col15/g" wal.json
